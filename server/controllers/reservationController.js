@@ -37,6 +37,7 @@ module.exports = {
   deleteRes: async (req, res, next) => {
     try {
       const {id} = req.params;
+      console.log(req.params)
       await pool.query('DELETE * FROM reservations WHERE _id = $1', [id]);
       return next();
     } catch (err) {
