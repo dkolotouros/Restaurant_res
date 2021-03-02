@@ -4,11 +4,12 @@ import { render } from 'react-dom';
 import { ChakraProvider } from '@chakra-ui/react';
 import App from './components/App.jsx';
 
-const title = 'My Simple Express React Webpack Babel Setup Environment';
 
-ReactDOM.render(
+// rendering full app - added app script
+render(
   <ChakraProvider >
-    <App />
+    <App  />
   </ChakraProvider>,
   document.getElementById('app')
 );
+
