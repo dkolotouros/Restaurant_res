@@ -45,11 +45,11 @@ const ReservationsContainer = (props) => {
             e.preventDefault();
         }
             return (
-
-                 <Box maxHeight='100vh'  alignItems="center" borderWidth={1} px={4} width='100%' maxWidth='500px' borderRadius={4} textAlign='center' boxShadow='lg' style={white}>
-                  <Heading>Reserve a Table</Heading>
+                 
+                 <Box maxHeight='100%'  alignItems="center" borderWidth={1} px={4} width='100%' maxWidth='500px' borderRadius={4} textAlign='center' boxShadow='lg' style={white}>
+                  <Heading my={8}>Reserve a Table</Heading>
                               
-                <Box my={8} textAlign='left' textAlign="center"  >
+                <Box my={8} mx={8} textAlign='center' textAlign="center"  >
                   <form id='sign-up-form' onSubmit = {submitData} >
                     <FormControl >
                       <FormLabel>Name: </FormLabel>
@@ -74,6 +74,7 @@ const ReservationsContainer = (props) => {
                   </form>
                 </Box>
                 </Box>
+                
               )
 }
 

@@ -7,7 +7,7 @@ const App = () => {
      backgroundImage: `url(${stockPhoto})`
  }
  	return (
-		<div style = {background}> 
+		<div style = {background} > 
         <ReservationsContainer  />
         </div>
 	);
