@@ -1,4 +1,4 @@
 # Restaurant_res
 
-#To spin up app use npm run dev
+Use NPM run dev to spin up in dev mode
 
