@@ -26,11 +26,11 @@ app.get('/reservation', reservationController.getRes, (req, res) => {
 
 //creating a new application
 app.post('/reservation', reservationController.addRes, (req, res) => {
-  return res.status(200).json('App saved');
+  return res.status(200).json('reservation saved');
 });
 //deleting an application
 app.delete('/reservation/:id', reservationController.deleteRes, (req, res) => {
-  return res.status(200).json('app deleted')
+  return res.status(200).json('reservation deleted')
 })
 
 app.use((err, req, res, next) => {

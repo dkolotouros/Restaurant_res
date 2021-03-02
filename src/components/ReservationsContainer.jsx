@@ -39,7 +39,7 @@ const ReservationsContainer = (props) => {
                 method: 'POST',
                 headers: {'content-type':'application/json'},
                 body: JSON.stringify({
-                    username,password,firstName,lastName,email
+                  name, email, party_size, date, time
                 })
             })
             e.preventDefault();
